@@ -1,89 +1,84 @@
 # pandas-challenge
 Used district-wide standardized test results and school characteristics to display trends in school performance.
-The jupyter notebook PyCitySchools 
-Create a high level snapshot (in table form) of the district's key metrics, including:
+The jupyter notebook PyCitySchools creates 9 tables/dataframes showing:
 
-Total Schools
-Total Students
-Total Budget
-Average Math Score
-Average Reading Score
-% Passing Math (The percentage of students that passed math.)
-% Passing Reading (The percentage of students that passed reading.)
-% Overall Passing (The percentage of students that passed math and reading.)
+1. District Summary
+  Total Schools
+  Total Students
+  Total Budget
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
 
-
-
-
-School Summary
-
-Create an overview table that summarizes key metrics about each school, including:
-
-School Name
-School Type
-Total Students
-Total School Budget
-Per Student Budget
-Average Math Score
-Average Reading Score
-% Passing Math (The percentage of students that passed math.)
-% Passing Reading (The percentage of students that passed reading.)
-% Overall Passing (The percentage of students that passed math and reading.)
+2. School Summary
+  School Name
+  School Type
+  Total Students
+  Total School Budget
+  Per Student Budget
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
 
 
 
 
-Top Performing Schools (By % Overall Passing)
-
-Create a table that highlights the top 5 performing schools based on % Overall Passing. Include:
-
-School Name
-School Type
-Total Students
-Total School Budget
-Per Student Budget
-Average Math Score
-Average Reading Score
-% Passing Math (The percentage of students that passed math.)
-% Passing Reading (The percentage of students that passed reading.)
-% Overall Passing (The percentage of students that passed math and reading.)
+3. Top Performing Schools (By % Overall Passing)
+  School Name
+  School Type
+  Total Students
+  Total School Budget
+  Per Student Budget
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
 
 
 
+4. Lowest Performing Schools (By % Overall Passing)
+  School Name
+  School Type
+  Total Students
+  Total School Budget
+  Per Student Budget
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
 
-Bottom Performing Schools (By % Overall Passing)
+5. Average Math Scores by Grade Level
 
-Create a table that highlights the bottom 5 performing schools based on % Overall Passing. Include all of the same metrics as above.
+6. Average Reading Scores by Grade Level
 
+7. Scores by School Spending
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
 
-Math Scores by Grade**
-
-Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-
-Reading Scores by Grade
-
-Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-
-Scores by School Spending
-
-Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
-
-Average Math Score
-Average Reading Score
-% Passing Math (The percentage of students that passed math.)
-% Passing Reading (The percentage of students that passed reading.)
-% Overall Passing (The percentage of students that passed math and reading.)
-
-
-
-
-Scores by School Size
-
-Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+8. Scores by School Size
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
 
 
-Scores by School Type
+9. Scores by School Type
+  Average Math Score
+  Average Reading Score
+  % Passing Math (The percentage of students that passed math.)
+  % Passing Reading (The percentage of students that passed reading.)
+  % Overall Passing (The percentage of students that passed math and reading.)
+  
+ Conclusions: The analysis shows that charter schools have a higher overall passing rate of 90.5% compared to district schools with only 53.7%
+ Also, the schools that are smaller in size (smaller student population) have higher overall passing rates (90.1% and 91.6% for small and medium schools respectively compared to 56.6% among larger schools). 
 
-Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
